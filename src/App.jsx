@@ -4,8 +4,8 @@ function App() {
   const [selected, setSelected] = useState(null);
 
   const shareLinks = {
-    bild1: 'https://<USERNAME>.github.io/linkedin-share-demo/share/bild1/',
-    bild2: 'https://<USERNAME>.github.io/linkedin-share-demo/share/bild2/',
+    image1: 'https://<USERNAME>.github.io/linkedin-share-demo/share/image1/',
+    image2: 'https://<USERNAME>.github.io/linkedin-share-demo/share/image2/',
   };
 
   const handleShare = () => {
@@ -21,22 +21,22 @@ function App() {
       <h1>Teile dein Jahresziel!</h1>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
         <img
-          src="/assets/bild1.png"
+          src="/assets/image1.jpg"
           alt="Bild 1"
           width={200}
-          onClick={() => setSelected('bild1')}
+          onClick={() => setSelected('image1')}
           style={{
-            border: selected === 'bild1' ? '4px solid blue' : '2px solid gray',
+            border: selected === 'image1' ? '4px solid blue' : '2px solid gray',
             cursor: 'pointer',
           }}
         />
         <img
-          src="/assets/bild2.png"
+          src="/assets/image2.jpg"
           alt="Bild 2"
           width={200}
-          onClick={() => setSelected('bild2')}
+          onClick={() => setSelected('image2')}
           style={{
-            border: selected === 'bild2' ? '4px solid blue' : '2px solid gray',
+            border: selected === 'image2' ? '4px solid blue' : '2px solid gray',
             cursor: 'pointer',
           }}
         />
