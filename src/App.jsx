@@ -4,8 +4,8 @@ function App() {
   const [selected, setSelected] = useState(null);
 
   const shareLinks = {
-    image1: 'https://<USERNAME>.github.io/linkedin-share-demo/share/image1/',
-    image2: 'https://<USERNAME>.github.io/linkedin-share-demo/share/image2/',
+    image1: 'https://mirahoszg.github.io/share-demo/share/image1/',
+    image2: 'https://mirahoszg.github.io/share-demo/share/image2/',
   };
 
   const handleShare = () => {
@@ -31,7 +31,7 @@ function App() {
           }}
         />
         <img
-          src="/assets/image2.jpg"
+          src="/assets/image2.png"
           alt="Bild 2"
           width={200}
           onClick={() => setSelected('image2')}
