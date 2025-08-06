@@ -21,7 +21,7 @@ function App() {
       <h1>Teile dein Jahresziel!</h1>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
         <img
-          src="/assets/image1.jpg"
+          src="./assets/image1.jpg"
           alt="Bild 1"
           width={200}
           onClick={() => setSelected('image1')}
@@ -31,7 +31,7 @@ function App() {
           }}
         />
         <img
-          src="/assets/image2.png"
+          src="./assets/image2.png"
           alt="Bild 2"
           width={200}
           onClick={() => setSelected('image2')}
